@@ -1,0 +1,10 @@
+version: "3.8"
+
+services:
+  nginx-sanryuu:
+    container_name: nginx-sanryuu
+    image: nginx:latest
+    ports:
+      - protocol: tcp
+        published: 8080
+        target: 80
