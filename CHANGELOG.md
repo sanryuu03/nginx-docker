@@ -1,5 +1,10 @@
 # Release Notes
 
+## v1.0.2 (2023-08-07)
+
+- ports
+- volumes
+
 ## v1.0.1 (2023-08-07)
 
 - ssl cloudflare
