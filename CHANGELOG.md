@@ -1,5 +1,9 @@
 # Release Notes
 
+## v1.0.4 (2023-08-08)
+
+- Automatically Starting Services in a Docker Container
+
 ## v1.0.3 (2023-08-07)
 
 - ports 443

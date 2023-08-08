@@ -4,6 +4,7 @@ services:
   nginx-sanryuu:
     container_name: nginx-sanryuu
     image: nginx:latest
+    restart: always
     ports:
       - protocol: tcp
         published: 80
