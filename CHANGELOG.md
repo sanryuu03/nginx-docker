@@ -1,5 +1,9 @@
 # Release Notes
 
+## v1.0.5 (2023-08-09)
+
+- reverse-proxy.conf => http => subdomain
+
 ## v1.0.4 (2023-08-08)
 
 - Automatically Starting Services in a Docker Container
