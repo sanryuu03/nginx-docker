@@ -4,10 +4,14 @@ services:
   nginx-sanryuu:
     container_name: nginx-sanryuu
     image: nginx:latest
+    restart: always
     ports:
       - protocol: tcp
         published: 80
         target: 80
+      - protocol: tcp
+        published: 443
+        target: 443
     volumes:
       - ./nginx/conf.d:/etc/nginx/conf.d
       - ./ssl:/etc/ssl
