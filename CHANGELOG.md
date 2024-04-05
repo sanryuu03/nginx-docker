@@ -1,5 +1,9 @@
 # Release Notes
 
+## v1.0.7 (2024-04-05)
+
+- reverse-proxy-golang.conf => golang API minuman kekinian => subdomain
+
 ## v1.0.6 (2023-08-09)
 
 - reverse-proxy.conf => https ssl => subdomain
